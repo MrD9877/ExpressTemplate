@@ -1,7 +1,7 @@
 # Express cookies and session 
-cookies are just info you send to client to be saved in browser for later to be retrived for different purposes./
-session is stored chuck of data to store client auth and interation with your site./
-you give sessionid to browser to be stored for later to be reterived and restore client intaction./
+cookies are just info you send to client to be saved in browser for later to be retrived for different purposes.\
+session is stored chuck of data to store client auth and interation with your site.\
+you give sessionid to browser to be stored for later to be reterived and restore client intaction.\
 best practice is to store session data in a database.
 
 ```
