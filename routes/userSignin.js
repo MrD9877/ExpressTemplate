@@ -23,5 +23,11 @@ router.post("/singin", checkSchema(checkUserSchema), async (req, res) => {
     res.sendStatus(201)
 })
 
+// router.get("/signin", passport.authenticate("local"))
+
+// router.get("/auth", passport.authenticate("local"), (req, res) => {
+//     console.log(`thiss is${req.user}`)
+//     res.sendStatus(200)
+// })
 
 export default router
