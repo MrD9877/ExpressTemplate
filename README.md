@@ -1,8 +1,7 @@
 # Express cookies and session 
-cookies are just info you send to client to be saved in browser for later to be retrived for different purposes.\
-session is stored chuck of data to store client auth and interation with your site.\
-you give sessionid to browser to be stored for later to be reterived and restore client intaction.\
-best practice is to store session data in a database.
+Cookies are pieces of information that you send to the client to be saved in the browser for later retrieval for various purposes. A session, on the other hand, is a chunk of data that stores client authentication and interactions with your site. You provide a session ID to the browser, which is stored for later use to restore client interactions.
+
+Best practices recommend storing session data in a database.
 
 ```
 app.use(cookieParser())
